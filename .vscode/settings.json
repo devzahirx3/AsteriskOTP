@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "database\\__pycache__": true,
+    "server\\routes\\__pycache__": true,
+    "server\\__pycache__": true,
+    "database\\__init__.py": true,
+    "bot_utils\\__pycache__": true,
+    ".vscode": true,
+    "__pycache__": true,
+    "utils\\__pycache__": true,
+    "utils\\__init__.py": true,
+    "server\\__init__.py": true,
+    "venv": true
+  }
+}
