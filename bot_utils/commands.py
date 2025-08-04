@@ -32,7 +32,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_text = (
         "            🥷MasterOTP BOT 🥷\n\n"
         "Type : /purchase to get your subscription\n"
-        "MasterOTP Bot - Owner: @thatmasterguy\n\n"
+        "MasterOTP Bot - Owner: @xxxxxxx\n\n"
         
         "👤 User Commands\n"
         "🔐 ➔ /redeem - Redeem your key\n"
@@ -60,10 +60,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [
             InlineKeyboardButton("🛒 Purchase", callback_data='purchase'),
-            InlineKeyboardButton("💬 Channel", url='https://t.me/thatmasterotp')
+            InlineKeyboardButton("💬 Channel", url='https://t.me/xxxxxxxxx')
         ],
         [
-            InlineKeyboardButton("🥇 Vouches", url='https://t.me/thatmasterotp_vouches')
+            InlineKeyboardButton("🥇 Vouches", url='https://t.me/xxxxxxxxx_vouches')
         ]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
@@ -108,7 +108,7 @@ async def checktime(update: Update, context: ContextTypes.DEFAULT_TYPE):
     end_date_str = user_object.get('subscription', {}).get('end_date', 'N/A')
     
     # Create InlineKeyboardButton
-    keyboard = [[InlineKeyboardButton("💸 Subscribe Now 💸", url="https://t.me/thatmasterotp")]]
+    keyboard = [[InlineKeyboardButton("💸 Subscribe Now 💸", url="https://t.me/xxxxxxxxx")]]
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     if end_date_str == 'N/A':
